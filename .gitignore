@@ -4,9 +4,6 @@
 !.eslintignore
 !.sass-lint.yml
 #------ local development ---------
-src/main/dev/
-src/main/webapp/polymer/
-src/main/webapp/shine-ui/
 #------ generic ------------
 *.log
 logs
