@@ -1,0 +1,38 @@
+.*
+!/.gitignore
+!.eslintrc
+!.eslintignore
+!.sass-lint.yml
+#------ local development ---------
+src/main/dev/
+src/main/webapp/polymer/
+src/main/webapp/shine-ui/
+#------ generic ------------
+*.log
+logs
+#------ eclipse -----------
+.classpath
+.project
+.metadata
+bin/
+tmp/
+.launch
+/target/
+#------- intelliJ ---------
+*.iml
+#-------- node and npm --------------
+node_modules/
+#-------- npm build generated files ---------------
+**/bundle.css
+**/bundle.*.css
+*.css.map
+**/bundle.js
+**/bundle.temp.js
+*.js.map
+*.temp
+*.temp.map
+*.bundle.html
+out/
+#------ sublime editor -----------
+*.sublime*
+#----------------------------------------------
