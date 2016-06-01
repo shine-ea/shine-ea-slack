@@ -4,6 +4,9 @@ module.exports = {
 
 function formatJira(ticket) {
 	return {
-		text: 'ha'
+		response_type: 'in_channel',
+		text: ticket.key + ': ' + ticket.name + 
+			'\nfix: ' + ticket.fixVersions + ', status: ' + ticket.status + 
+			'\ncapType: ' + ticket.capType + ', assignee: ' + ticket.assignee
 	}
 }

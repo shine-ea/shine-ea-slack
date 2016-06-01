@@ -45,7 +45,7 @@ function getJiraTicket(ticketNubmer) {
 							name: _.get(body, 'fields.summary', '[name: not-found]'),
 							fixVersions: _.get(body, 'fields.fixVersions[0].name', '[fixVersions: not-found]'),
 							status: _.get(body, 'fields.status.name', '[status: not-found]'),
-							capType: _.get(body, 'fields.customfield_11100.value', '[captype: not-found]'),
+							capType: _.get(body, 'fields.customfield_11100.value', '[capType: not-found]'),
 							person: _.get(body, 'fields.assignee.displayName', '[assignee: not-found]')
 						});
 					});
